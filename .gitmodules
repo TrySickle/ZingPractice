@@ -1,3 +1,9 @@
 [submodule "src/providers"]
 	path = src/providers
 	url = https://TrySickle@bitbucket.org/epilepsydev/mobileemaproviders.git
+[submodule "src/models"]
+	path = src/models
+	url = https://TrySickle@bitbucket.org/epilepsydev/mobileemamodels.git
+[submodule "src/shared"]
+	path = src/shared
+	url = https://TrySickle@bitbucket.org/epilepsydev/mobileemashared.git

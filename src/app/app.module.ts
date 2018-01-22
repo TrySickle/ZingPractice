@@ -7,7 +7,6 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ZingchartComponent } from '../components/zingchart/zingchart';
-import { RedcapProvider } from '../providers/redcap/redcap';
 
 @NgModule({
   declarations: [
@@ -27,8 +26,7 @@ import { RedcapProvider } from '../providers/redcap/redcap';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler},
-    RedcapProvider
+    {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
 export class AppModule {}
